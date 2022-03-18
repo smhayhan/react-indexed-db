@@ -4,7 +4,7 @@ import { ObjectStoreMeta, ObjectStoreSchema } from './indexed-hooks';
 import { createReadwriteTransaction } from './createReadwriteTransaction';
 import { createReadonlyTransaction } from './createReadonlyTransaction';
 
-export type Key = string | number | Date | ArrayBufferView | ArrayBuffer | IDBArrayKey | IDBKeyRange;
+export type Key = string | number | Date | ArrayBufferView | ArrayBuffer | IDBKeyRange;
 export interface IndexDetails {
   indexName: string;
   order: string;
