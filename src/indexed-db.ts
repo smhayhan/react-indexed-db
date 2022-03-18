@@ -1,7 +1,7 @@
 import { validateBeforeTransaction, createTransaction, optionsGenerator } from './Utils';
 import { ObjectStoreMeta, ObjectStoreSchema } from './indexed-hooks';
 
-export type Key = string | number | Date | ArrayBufferView | ArrayBuffer | IDBArrayKey | IDBKeyRange;
+export type Key = string | number | Date | ArrayBufferView | ArrayBuffer | IDBKeyRange;
 export interface IndexDetails {
   indexName: string;
   order: string;
