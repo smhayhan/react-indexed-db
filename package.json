@@ -2,8 +2,7 @@
   "name": "react-indexed-db",
   "version": "1.0.12",
   "description": "React wrapper to IndexedDB database.",
-  "main": "lib/main.js",
-  "types": "lib/index.d.ts",
+  "module": "src/index.tsx",
   "files": [
     "lib/*",
     "src/*"
